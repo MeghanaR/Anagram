@@ -4,6 +4,8 @@ import time
 ip1=raw_input("Enter name\n")
 ip2=raw_input("Enter second input to be tested\n")
 start_time=time.time()
+ip1=ip1.lower()
+ip2=ip2.lower()
 l1=len(ip1)
 l2=len(ip2)
 s1=s2=0
